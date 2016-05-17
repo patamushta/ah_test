@@ -69,7 +69,7 @@ def main():
     except IOError as e:
         print e
 
-    if database_check(signature)
+    if database_check(signature):
         print signature, 'already in database'
     else:
         print signature, 'added in database'
